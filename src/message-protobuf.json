@@ -1,0 +1,20 @@
+{
+  "nested": {
+    "Message": {
+      "fields": {
+        "version": {
+          "type": "int32",
+          "id": 1
+        },
+        "nonce": {
+          "type": "bytes",
+          "id": 3
+        },
+        "ciphertext": {
+          "type": "bytes",
+          "id": 4
+        }
+      }
+    }
+  }
+}
