@@ -15,6 +15,30 @@
           "id": 4
         }
       }
+    },
+    "Payload": {
+      "fields": {
+        "filename": {
+          "type": "string",
+          "id": 1
+        },
+        "data": {
+          "type": "bytes",
+          "id": 2
+        }
+      }
+    },
+    "Address": {
+      "fields": {
+        "hash": {
+          "type": "string",
+          "id": 1
+        },
+        "key": {
+          "type": "bytes",
+          "id": 2
+        }
+      }
     }
   }
 }
